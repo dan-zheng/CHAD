@@ -7,6 +7,8 @@ CHAD is a method for reverse and forward mode automatic differentiation on expre
 
 CHAD was introduced in [[1]](https://arxiv.org/abs/2103.15776) (extended and improved version of [[2]](https://arxiv.org/abs/2007.05283)), which was, in turn, inspired by the ideas in [[3]](https://arxiv.org/abs/1804.00746). [[4]](https://openreview.net/forum?id=ryxuz9SzDB) turns out to give a similar treatment of AD of higher order functions as the homomorphic definitions dictated by CHAD. [[5]](https://arxiv.org/abs/2110.00446) extends CHAD to source languagues with more expressive type systems.
 
+There is also a small Python port, with a tracing frontend and examples, in [python/](python/).
+
 ## Want to try it?
 
 This is a reference implementation, and does not attempt to be high-performance or compatible with other languages/tools.
